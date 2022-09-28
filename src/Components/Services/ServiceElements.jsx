@@ -8,11 +8,11 @@ justify-content: center;
 background:#010606;
 
 @media screen and (max-width:768px) {
-    height: 1350px;
+    height: 1450px;
 }
 
 @media screen and (max-width:480px) {
-    height: 1400px;
+    height: 1500px;
 }
 `
 
@@ -68,8 +68,9 @@ margin-bottom: 64px;
 align-items: center;
 text-align: center;
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:768px) {
     font-size: 2rem;
+    margin-top: 32px;
 }
 `
 
