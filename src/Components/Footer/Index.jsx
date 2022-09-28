@@ -15,10 +15,11 @@ import {
     WebsiteRights
 } from './FooterElements'
 import {
-    FaFacebook,
-    FaInstagram,
+    FaDiscord,
+    FaTelegram,
     FaTwitter,
-    FaYoutube
+    FaYoutube,
+    FaInstagram
 } from 'react-icons/fa'
 import { animateScroll as scroll } from 'react-scroll';
 
@@ -75,28 +76,34 @@ const Footer = () => {
                             </WebsiteRights>
                             <SocialIcons>
                                 <SocialIconLink
-                                    href="/"
+                                    href="https://discord.gg/cMz4juMf"
                                     target="_blank"
-                                    aria-label="Facebook">
-                                    <FaFacebook />
+                                    aria-label="Discord">
+                                    <FaDiscord />
                                 </SocialIconLink>
                                 <SocialIconLink
-                                    href="/"
+                                    href="https://youtube.com/channel/UCmU8gk0I4qZLOGaYfD4M9bQ?sub_confirmation=1"
                                     target="_blank"
                                     aria-label="Youtube">
                                     <FaYoutube />
                                 </SocialIconLink>
                                 <SocialIconLink
-                                    href="/"
+                                    href="https://twitter.com/nba_universe_co"
                                     target="_blank"
                                     aria-label="Twitter">
                                     <FaTwitter />
                                 </SocialIconLink>
                                 <SocialIconLink
-                                    href="/"
+                                    href="https://instagram.com/nba_universe_co"
                                     target="_blank"
                                     aria-label="Instagram">
                                     <FaInstagram />
+                                </SocialIconLink>
+                                <SocialIconLink
+                                    href="https://t.me/nbauniverse_co"
+                                    target="_blank"
+                                    aria-label="Telegram">
+                                    <FaTelegram />
                                 </SocialIconLink>
                             </SocialIcons>
                         </SocialMediaWrap>
