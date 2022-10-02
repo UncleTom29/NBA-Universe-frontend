@@ -7,11 +7,11 @@ import { Doughnut } from 'react-chartjs-2';
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 export const data = {
-  labels: ['Presale', 'Liquidity', 'Rewards Vesting', 'Team Vesting', 'Marketing Vesting', 'Unlocked', 'CEX Listing', 'Burn'],
+  labels: ['Presale', 'Liquidity', 'Staking Rewards Vesting', 'Team Vesting', 'Marketing Vesting', 'Unlocked', 'CEX Listing', 'Burn'],
   datasets: [
     {
       label: 'Tokenomics',
-      data: [200000000, 150000000, 280000000, 100000000, 100000000, 70000000, 80000000, 20000000],
+      data: [150000000, 100000000, 250000000, 100000000, 100000000, 80000000, 50000000, 20000000],
       backgroundColor: [
         'rgba(255, 99, 132, 0.2)',
         'rgba(54, 162, 235, 0.2)',
