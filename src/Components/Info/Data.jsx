@@ -16,7 +16,7 @@ export const homeObj1 = {
     dark: true,
     primary: true,
     darkText: false,
-    linkto: 'https://pinksale.com'
+    linkto: 'https://www.pinksale.finance/launchpad/0x354377F9BEf00ea983A886560FB9e57231611bA0?chain=BSC'
 }
 export const homeObj2 = {
     id: 'community',
