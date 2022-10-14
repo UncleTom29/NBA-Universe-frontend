@@ -11,7 +11,7 @@ import {
     ArrowRight
 } from '../Hero/HeroElements'
 import { Button } from '../../Utilities/ButtonElements'
-import Video from '../../Videos/universe.MP4'
+import Video from '../../Images/universe.png'
 
 const openInNewTab = url => {
     window.open(url, '_blank', 'noopener,noreferrer')
@@ -32,7 +32,7 @@ const Hero = () => {
         <>
             <HeroContainer>
                 <HeroBg>
-                    <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+                    <VideoBg autoPlay loop muted src={Video}  />
                 </HeroBg>
                 <HeroContent>
                     <HeroTitle> DECENTRALIZED BASKETBALL ECOSYSTEM</HeroTitle>
