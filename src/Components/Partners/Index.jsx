@@ -28,7 +28,7 @@ const Partners = () => {
                 <PartnersH1> Partners </PartnersH1>
                 <PartnersWrapper>
                     <PartnersCard>
-                    <PartnersIcon  src={Icon1} onClick={() => openInNewTab("https:www.binance.com")}/>
+                    <PartnersIcon  src={Icon1} onClick={() => openInNewTab('https://www.binance.com')}/>
                     </PartnersCard>
                     <PartnersCard>
                     <PartnersIcon  src={Icon2}/>
