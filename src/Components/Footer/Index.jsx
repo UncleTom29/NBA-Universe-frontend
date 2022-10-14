@@ -76,7 +76,7 @@ const Footer = () => {
                             </WebsiteRights>
                             <SocialIcons>
                                 <SocialIconLink
-                                    href="https://discord.gg/pczwHmaCKW"
+                                    href="https://discord.gg/vc2mqbkT"
                                     target="_blank"
                                     aria-label="Discord">
                                     <FaDiscord />
