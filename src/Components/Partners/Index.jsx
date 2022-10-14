@@ -31,25 +31,25 @@ const Partners = () => {
                     <PartnersIcon  src={Icon1} onClick={() => openInNewTab('https://www.binance.com')}/>
                     </PartnersCard>
                     <PartnersCard>
-                    <PartnersIcon  src={Icon2}/>
+                    <PartnersIcon  src={Icon2} onClick={() => openInNewTab('https://www.opensea.com')} />
                     </PartnersCard>
                     <PartnersCard>
-                    <PartnersIcon  src={Icon3}/>
+                    <PartnersIcon  src={Icon3} onClick={() => openInNewTab('https://www.latoken.com')}/>
                     </PartnersCard>
                     <PartnersCard>
-                    <PartnersIcon  src={Icon4}/>
+                    <PartnersIcon  src={Icon4} onClick={() => openInNewTab('https://www.pinksale.finance/launchpad/0x354377F9BEf00ea983A886560FB9e57231611bA0?chain=BSC')}/>
                     </PartnersCard>
                     <PartnersCard>
-                    <PartnersIcon  src={Icon5}/>
+                    <PartnersIcon  src={Icon5} onClick={() => openInNewTab('https://www.pancakeswap.com.com')}/>
                     </PartnersCard>
                     <PartnersCard>
-                    <PartnersIcon  src={Icon6}/>
+                    <PartnersIcon  src={Icon6} onClick={() => openInNewTab('https://www.nba.com')}/>
                     </PartnersCard>
                     <PartnersCard>
-                    <PartnersIcon  src={Icon7}/>
+                    <PartnersIcon  src={Icon7} onClick={() => openInNewTab('https://www.nbpa/foundation.com')}/>
                     </PartnersCard>
                     <PartnersCard>
-                    <PartnersIcon  src={Icon8}/>
+                    <PartnersIcon  src={Icon8} onClick={() => openInNewTab('https://www.nbpa.com')}/>
                     </PartnersCard>
                 </PartnersWrapper>
             </PartnersContainer>
