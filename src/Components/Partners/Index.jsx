@@ -15,6 +15,12 @@ import Icon6 from '../../Images/nba.PNG'
 import Icon7 from '../../Images/nbafoundation.png'
 import Icon8 from '../../Images/nbaplayerslogo.jpg'
 
+const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer')
+
+
+};
+
 const Partners = () => {
     return (
         <>
@@ -22,7 +28,7 @@ const Partners = () => {
                 <PartnersH1> Partners </PartnersH1>
                 <PartnersWrapper>
                     <PartnersCard>
-                    <PartnersIcon  src={Icon1}/>
+                    <PartnersIcon  src={Icon1} onClick={() => openInNewTab("https:www.binance.com")}/>
                     </PartnersCard>
                     <PartnersCard>
                     <PartnersIcon  src={Icon2}/>
