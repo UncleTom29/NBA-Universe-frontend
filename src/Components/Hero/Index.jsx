@@ -46,9 +46,9 @@ const Hero = () => {
                             onMouseLeave={onHover}
                             primary="true"
                             dark="true"
-                            onClick={() => openInNewTab('https://www.pinksale.finance/launchpad/0x354377F9BEf00ea983A886560FB9e57231611bA0?chain=BSC')}
+                            onClick={() => openInNewTab('https://docs.nbauniverse.co')}
                         >
-                            Buy $NBAU on Pinksale now {hover ? <ArrowForward /> : <ArrowRight />}
+                            Check our Whitepaper {hover ? <ArrowForward /> : <ArrowRight />}
                         </Button>
                     </HeroBtnWrapper>
                 </HeroContent>

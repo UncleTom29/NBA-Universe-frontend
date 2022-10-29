@@ -9,14 +9,14 @@ export const homeObj1 = {
     topLine: 'NBA Metaverse',
     headline: 'Decentralized Ecosystem',
     description: "We're building a decentralized multipurpose digital platform where community members can access unique digital arts & avatars of their favorite basketball players ( $NBAU holders get whitelist access) , discover and play P2E Basketball games across all blockchains, stake their $NBAU tokens for crypto rewards and whitelist access to all upcoming exclusive products launched on NBA universe ",
-    buttonLabel: 'Buy $NBAU',
+    buttonLabel: 'About us',
     imgStart: false,
     img: require('../../Images/basketballuniverse.PNG').default,
-    alt: 'pinksale fairlaunch',
+    alt: 'fairlaunch',
     dark: true,
     primary: true,
     darkText: false,
-    linkto: 'https://www.pinksale.finance/launchpad/0x354377F9BEf00ea983A886560FB9e57231611bA0?chain=BSC'
+    linkto: 'https://docs.nbauniverse.co/whitepaper/about-us'
 }
 export const homeObj2 = {
     id: 'community',
