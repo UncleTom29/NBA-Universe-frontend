@@ -35,7 +35,7 @@ const Hero = () => {
                     <VideoBg autoPlay loop muted src={Video}  />
                 </HeroBg>
                 <HeroContent>
-                    <HeroTitle> DECENTRALIZED BASKETBALL ECOSYSTEM</HeroTitle>
+                    <HeroTitle> DECENTRALIZED BASKETBALL</HeroTitle>
                     <HeroP>
                     NFT Marketplace | Digital Collectibles | P2E GameFi Aggregator | GameFi Launchpad | Staking  
                     </HeroP>
